@@ -1,20 +1,64 @@
-@import url('https://fonts.googleapis.com/css?family=Carter+One');
-
+$primary-white: #f0f0f0;
+@import url('https://fonts.googleapis.com/css?family=Fondamento');
+@import url('https://fonts.googleapis.com/css?family=Cantarell');
 button:focus {outline:0;}
 
 .background {
-  background-image: image-url("homepage.JPG");
+  background-image: image-url("home/homepage1.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+a {
+  color: inherit;
+}
+
 .home-title {
   margin-top: -10px;
-  color: #8442ff;
-  font-family: 'Carter One', cursive;
-  font-size: 50px;
+  color: $primary-white;
+  font-family: 'Fondamento', cursive;
+  font-style: italic;
+  font-size: 60px;
   text-align: center;
-  background-image: image-url("quart.jpeg");
-  background-size: contain;
-  opacity: .7;
+  background-image: image-url("home/black.jpg");
+  margin: 0px 140px;
+}
+
+.men, .women, .ceremony, .reception {
+  position: absolute;
+  border: 1px solid #b0b5c1;
+  background-image: image-url("home/black.jpg");
+  padding: 7px 10px;
+  width: 115px;
+  text-align: center;
+  color: $primary-white;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.men {
+  right: 10px;
+  top: 100px;
+}
+
+.women {
+  right: 10px;
+  top: 139px;
+}
+
+.ceremony {
+  right: 10px;
+  top: 178px;
+}
+.reception {
+  right: 10px;
+  top: 217px;
+}
+
+.men:hover, .women:hover, .ceremony:hover, .reception:hover {
+  background: #b0b5c1;
+  color: #8442ff;
+  border: 1px solid black;
 }
