@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+
+button:focus {outline:0;}
+
+.background {
+  background-image: image-url("homepage.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-title {
+  margin-top: -10px;
+  color: #8442ff;
+  font-family: 'Carter One', cursive;
+  font-size: 50px;
+  text-align: center;
+  background-image: image-url("quart.jpeg");
+  background-size: contain;
+  opacity: .7;
+}
