@@ -59,8 +59,8 @@ a {
 }
 
 .men:hover, .women:hover, .ceremony:hover, .reception:hover {
-  background: #b0b5c1;
-  color: black;
+  background: #8442ff;
+  color: $primary-white;
+  width: 145px;
   border: 1px solid black;
-  box-shadow: inset 0 0 0 2px #8442ff;
 }
