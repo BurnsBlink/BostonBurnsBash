@@ -2,7 +2,10 @@
   <h1 class="home-title"> The Burns Wedding -</h1>
 
   <%= link_to "Groomsmen", men_path, :class => "men" %>
-  <%= link_to "Bridal Party", men_path, :class => "women" %>
-  <%= link_to "Ceremony", men_path, :class => "ceremony" %>
-  <%= link_to "Reception", men_path, :class => "reception" %>
+  <%= link_to "Bridal Party", women_path, :class => "women" %>
+  <%= link_to "Ceremony", ceremony_index_path, :class => "ceremony" %>
+  <%= link_to "Reception", reception_index_path, :class => "reception" %>
+  <%= link_to "Family", family_index_path, :class => "family" %>
+  <%= link_to "First Look", firstlook_index_path, :class => "first-look" %>
+  <%= link_to "Miscellaneous", misc_index_path, :class => "misc" %>
 </body>
