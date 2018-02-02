@@ -25,7 +25,7 @@ a {
   border-radius: 8%;
 }
 
-.men, .women, .ceremony, .reception {
+.men, .women, .ceremony, .reception, .family, .first-look, .misc {
   position: absolute;
   border: 1px solid #b0b5c1;
   background-image: image-url("home/black.jpg");
@@ -56,6 +56,21 @@ a {
 .reception {
   right: 10px;
   top: 217px;
+}
+
+.family {
+  right: 10px;
+  top: 256px;
+}
+
+.first-look {
+  right: 10px;
+  top: 295px;
+}
+
+.misc {
+  right: 10px;
+  top: 334px;
 }
 
 .men:hover, .women:hover, .ceremony:hover, .reception:hover {
