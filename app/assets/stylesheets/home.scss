@@ -1,4 +1,5 @@
 $primary-white: #f0f0f0;
+$primary-purple: #8442ff;
 @import url('https://fonts.googleapis.com/css?family=Fondamento');
 @import url('https://fonts.googleapis.com/css?family=Cantarell');
 button:focus {outline:0;}
@@ -27,7 +28,7 @@ a {
 
 .men, .women, .ceremony, .reception, .family, .first-look, .misc {
   position: absolute;
-  border: 1px solid #b0b5c1;
+  border-right: 1px solid #b0b5c1;
   background-image: image-url("home/black.jpg");
   padding: 7px 10px;
   width: 115px;
@@ -73,8 +74,8 @@ a {
   top: 334px;
 }
 
-.men:hover, .women:hover, .ceremony:hover, .reception:hover {
-  background: #8442ff;
+.men:hover, .women:hover, .ceremony:hover, .reception:hover, .family:hover, .first-look:hover, .misc:hover {
+  background: $primary-purple;
   color: $primary-white;
   width: 145px;
   border: 1px solid black;
