@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.2'
 gem "carrierwave"
 gem "mini_magick"
 gem "fog"
+gem "carrierwave-aws"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
