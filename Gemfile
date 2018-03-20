@@ -16,6 +16,7 @@ gem "carrierwave"
 gem "mini_magick"
 gem "fog"
 gem "carrierwave-aws"
+gem 'foundation-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
