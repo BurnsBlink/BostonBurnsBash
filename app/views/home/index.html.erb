@@ -1,15 +1,16 @@
-<body class="background">
-  <div class="row">
-    <h1 class="large-12 medium-12 small-8 columns home-title"> The Burns Wedding </h1>
+<body class="this">
+  <div class="large-6 medium-6 small-12 columns home-bg">
+    <h1 class="home-title">The Burns Wedding</h1>
+    <p class="sub-title">October 1st, 2017 </br> Boston, MA</p>
   </div>
 
-  <div class="row">
-    <%= link_to "Groomsmen", men_path, :class => "men" %>
-    <%= link_to "Bridal Party", women_path, :class => "women" %>
-    <%= link_to "Ceremony", ceremony_index_path, :class => "ceremony" %>
-    <%= link_to "Reception", reception_index_path, :class => "reception" %>
-    <%= link_to "Family", family_index_path, :class => "family" %>
-    <%= link_to "First Look", firstlook_index_path, :class => "first-look" %>
-    <%= link_to "Miscellaneous", misc_index_path, :class => "misc" %>
+  <div class="large-6 medium-6 small-12 text-center columns routes">
+    <%= link_to "Groomsmen", men_path, :class => "row men" %>
+    <%= link_to "Bridal Party", women_path, :class => "row women" %>
+    <%= link_to "Ceremony", ceremony_index_path, :class => "row ceremony" %>
+    <%= link_to "Reception", reception_index_path, :class => "row reception" %>
+    <%= link_to "Family", family_index_path, :class => "row family" %>
+    <%= link_to "First Look", firstlook_index_path, :class => "row first-look" %>
+    <%= link_to "Miscellaneous", misc_index_path, :class => "row misc" %>
   </div>
 </body>

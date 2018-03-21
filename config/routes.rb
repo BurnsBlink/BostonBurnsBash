@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  root 'enterpage#index'
+  resources :home, only: [:index]
   resources :men, only: [:index]
   resources :women, only: [:index]
   resources :ceremony, only: [:index]

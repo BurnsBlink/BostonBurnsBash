@@ -1,0 +1,34 @@
+$primary-purple: #8442ff;
+@import url('https://fonts.googleapis.com/css?family=Ruthie');
+
+.background {
+  background-image: image-url("home/homepage1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.enterbutton {
+  width: 140px;
+  height: 80px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 55px;
+  font-family: 'Ruthie', cursive;
+  font-weight: bolder;
+  color: black;
+  background: rgba(176, 176, 176, 0.4);
+  border: 3px solid $primary-purple;
+  border-radius: 30%;
+}
+
+.enterbutton:hover {
+  transition-delay: .1s;
+  -webkit-transition-delay: .1s;
+  color: $primary-purple;
+  background: black;
+  border: 3px solid black;
+}
