@@ -2,81 +2,49 @@ $primary-white: #f0f0f0;
 $primary-purple: #8442ff;
 @import url('https://fonts.googleapis.com/css?family=Fondamento');
 @import url('https://fonts.googleapis.com/css?family=Cantarell');
-button:focus {outline:0;}
 
-.background {
-  background-image: image-url("home/homepage1.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+button:focus {outline:0;}
 
 a {
   color: inherit;
 }
 
+.this {
+    height: 100%;
+    background-image: image-url("groom/dark-triangles.png");
+}
+
+.home-bg {
+    height: 120%;
+    background-image: image-url("0948.JPG");
+    background-size: cover;
+}
 .home-title {
-  margin-top: -10px;
   color: $primary-white;
   font-family: 'Fondamento', cursive;
   font-style: italic;
   font-size: 60px;
   text-align: center;
-  background-image: image-url("home/black.jpg");
-  border-radius: 8%;
-  margin-top: 5px;
+}
+
+.sub-title {
+  color: $primary-white;
+  font-family: 'Fondamento', cursive;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
 }
 
 .men, .women, .ceremony, .reception, .family, .first-look, .misc {
-  position: absolute;
-  border-right: 1px solid #b0b5c1;
-  background-image: image-url("home/black.jpg");
-  padding: 7px 10px;
-  width: 125px;
-  text-align: center;
   color: $primary-white;
-  font-family: 'Cantarell', sans-serif;
-  font-size: 16px;
+  font-family: 'Fondamento', sans-serif;
+  font-size: 40px;
   font-style: italic;
   text-decoration: none;
 }
 
-.men {
-  right: 10px;
-  top: 100px;
-}
-
-.women {
-  right: 10px;
-  top: 139px;
-}
-
-.ceremony {
-  right: 10px;
-  top: 178px;
-}
-.reception {
-  right: 10px;
-  top: 217px;
-}
-
-.family {
-  right: 10px;
-  top: 256px;
-}
-
-.first-look {
-  right: 10px;
-  top: 295px;
-}
-
-.misc {
-  right: 10px;
-  top: 334px;
-}
-
 .men:hover, .women:hover, .ceremony:hover, .reception:hover, .family:hover, .first-look:hover, .misc:hover {
-  background: $primary-purple;
-  color: $primary-white;
-  width: 145px;
-  border: 1px solid black;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  color: $primary-purple;
 }
