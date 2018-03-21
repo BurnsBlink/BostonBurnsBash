@@ -1,9 +1,6 @@
 class MenController < ApplicationController
   def index
-    @photos = Photo.all
-  end
-
-  def show
-    @photo = Photo.find(params[:id])
+    @groomsmen = Photo.all
+    
   end
 end
