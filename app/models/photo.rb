@@ -1,3 +1,3 @@
 class Photo < ApplicationRecord
-  mount_uploader :photo, PhotoUploader
+  validates_presence_of :file
 end
