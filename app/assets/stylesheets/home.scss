@@ -22,8 +22,8 @@ a {
   font-size: 60px;
   text-align: center;
   background-image: image-url("home/black.jpg");
-  margin: 0px 140px;
   border-radius: 8%;
+  margin-top: 5px;
 }
 
 .men, .women, .ceremony, .reception, .family, .first-look, .misc {
@@ -31,7 +31,7 @@ a {
   border-right: 1px solid #b0b5c1;
   background-image: image-url("home/black.jpg");
   padding: 7px 10px;
-  width: 115px;
+  width: 125px;
   text-align: center;
   color: $primary-white;
   font-family: 'Cantarell', sans-serif;
