@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   resources :family, only: [:index]
   resources :firstlook, only: [:index]
   resources :misc, only: [:index]
+  resources :video, only: [:index]
 end

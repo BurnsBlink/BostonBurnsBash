@@ -35,7 +35,7 @@ a {
   text-align: center;
 }
 
-.men, .women, .ceremony, .reception, .family, .first-look, .misc {
+.men, .women, .ceremony, .reception, .family, .first-look, .misc, .video {
   color: $primary-white;
   font-family: 'Fondamento', sans-serif;
   font-size: 40px;
@@ -43,7 +43,7 @@ a {
   text-decoration: none;
 }
 
-.men:hover, .women:hover, .ceremony:hover, .reception:hover, .family:hover, .first-look:hover, .misc:hover {
+.men:hover, .women:hover, .ceremony:hover, .reception:hover, .family:hover, .first-look:hover, .misc:hover, .video:hover {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   color: $primary-purple;
